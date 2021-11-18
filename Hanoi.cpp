@@ -14,6 +14,7 @@ void hanoi(int n, string o, string a, string d){
 int main(){
     string o="o", a="a", d="d";
     int n;
+    cout<<"hola Mundo"<<endl;
     cout<<"Ingrese el numero de discos: ";cin>>n;
 
     hanoi(n,o,a,d);
